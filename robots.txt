@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /components/
+Disallow: /admin/
+Disallow: /.git/
+Disallow: *.json
+Disallow: *.md
+
+# Allow specific asset directories
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+Allow: /fonts/
+Allow: /icons/
+
+# Sitemap location
+Sitemap: https://github-pages-boilerplate.upayan.dev/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
